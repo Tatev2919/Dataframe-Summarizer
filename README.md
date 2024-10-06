@@ -89,7 +89,7 @@ Handles normal edge cases such as DataFrames with no data, or columns with no da
     _coefficient_of_variation(column) – Returns the coefficient of variation for numeric columns.
     _distinct_value_count(column) – Returns the count of unique values in any column.
     
-  Public meethods
+  Public methods
     
     generate_summary() – Generates a summary of all columns in the DataFrame.
     export_summary(output_format, file_name, **kwargs) – Exports the summary in Markdown, HTML, or XLSX format.

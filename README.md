@@ -20,8 +20,7 @@ This summarizer is useful when one has a large dataset with various types of dat
         - Coefficient of variation (numeric)
         - Number of Unique Values 
         - Date Range (should be used when working with datetime fields)
-    
-    Export summary in multiple formats:
+Export summary in multiple formats:
         - Markdown
         - HTML
         - Excel (XLSX)

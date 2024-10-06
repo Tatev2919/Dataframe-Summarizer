@@ -1,2 +1,2 @@
 # Dataframe-Summarizer
-Dataframe Statistics ecporter program
+Dataframe Statistics exporter program

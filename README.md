@@ -10,6 +10,7 @@ This summarizer is useful when one has a large dataset with various types of dat
 
 **Features:**
     Summarizes various statistics for each column of the DataFrame:
+    
         - Data Type
         - It options contain Min/Max in case of numeric and datetime columns.
         - Regarding the numeric data, we need to consider the properties of Mean, Median and Mode.

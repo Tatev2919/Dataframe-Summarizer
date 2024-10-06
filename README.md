@@ -10,20 +10,20 @@ This summarizer is useful when one has a large dataset with various types of dat
 
 **Features:**
     Summarizes various statistics for each column of the DataFrame:
-        Data Type
-        It options contain Min/Max in case of numeric and datetime columns.
-        Regarding the numeric data, we need to consider the properties of Mean, Median and Mode.
-        Range and Deviation (for numeric columns)
-        Zero Percentage (for numeric columns)
-        IQR – Interquartile Range which is applicable for the numeric fields only.
-        Coefficient of variation (numeric)
-        Number of Unique Values 
-        Date Range (should be used when working with datetime fields)
+        - Data Type
+        - It options contain Min/Max in case of numeric and datetime columns.
+        - Regarding the numeric data, we need to consider the properties of Mean, Median and Mode.
+        - Range and Deviation (for numeric columns)
+        - Zero Percentage (for numeric columns)
+        - IQR – Interquartile Range which is applicable for the numeric fields only.
+        - Coefficient of variation (numeric)
+        - Number of Unique Values 
+        - Date Range (should be used when working with datetime fields)
     
     Export summary in multiple formats:
-        Markdown
-        HTML
-        Excel (XLSX)
+        - Markdown
+        - HTML
+        - Excel (XLSX)
     
     Handles normal edge cases such as DataFrames with no data, or columns with no data.
 

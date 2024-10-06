@@ -49,9 +49,9 @@ Handles normal edge cases such as DataFrames with no data, or columns with no da
   
   2. Running the Summarizer
   The summarizer can be executed by running the main.py script starting the application. This script loads the Iris dataset, generates a statistical summary, and exports it in three formats: Markdown, HTML, and Excel.
-
-     python main.py
-  
+    
+    python main.py
+    
   4. Customizing Output
   You can customize the output format and file name by modifying the export_summary method in main.py:
   

@@ -24,20 +24,22 @@ Export summary in multiple formats:
         - Markdown
         - HTML
         - Excel (XLSX)
-    
-    Handles normal edge cases such as DataFrames with no data, or columns with no data.
+Handles normal edge cases such as DataFrames with no data, or columns with no data.
 
 **Requirements:**
+    
     Python 3.9 or higher
     Pandas
     NumPy
 
 **Installation:**
   Clone the repository:
+    
     git clone https://github.com/Tatev2919/Dataframe-Summarizer.git
     cd Dataframe-Summarizer
     
   Install the required dependencies:
+    
     pip install -r requirements.txt
 
 **Usage:**
@@ -73,6 +75,7 @@ Export summary in multiple formats:
 **Methods in DataFrameSummarizer:**
 
   Internal Methods
+    
     _get_column_type(column) – Returns the data type of the specified column.
     _get_min_value(column) – Returns the minimum value for numeric or datetime columns.
     _get_max_value(column) – Returns the maximum value for numeric or datetime columns.
@@ -87,9 +90,12 @@ Export summary in multiple formats:
     _distinct_value_count(column) – Returns the count of unique values in any column.
     
   Public meethods
+    
     generate_summary() – Generates a summary of all columns in the DataFrame.
     export_summary(output_format, file_name, **kwargs) – Exports the summary in Markdown, HTML, or XLSX format.
     
 **Testing:**
     Added 3 pytest cases which are not covered in scope or Iris dataset. To run the tests there is need to run only pytest command.
+
+        pytest
   
